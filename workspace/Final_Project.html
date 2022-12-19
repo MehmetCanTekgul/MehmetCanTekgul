@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Managment System</title>
+</head>
+<body>
+    <h1>Student Managment System</h1>
+    <div>
+        <h1>Add Student </h1>
+        <form action="/action_page.php">
+            <label for="sid">Student Id:</label>
+            <input type="number" id="sid" name="sid"><br><br>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="button" value="Add Student">
+          </form>
+    </div>
+    <div> 
+        <h1>Add Lecture</h1>
+        <form action="/action_page.php">
+            <label for="lcode">Lecture Code:</label>
+            <input type="text" id="lcode" name="lcode"><br><br>
+            <label for="lname">Lecture Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="button" value="Add Lecture">
+          </form>
+    </div>
+    <div>
+        <h1>Add Student To Lecture </h1>
+        <form action="/action_page.php">
+            <label for="sid">Student Id:</label>
+            <input type="number" id="sid" name="sid"><br><br>
+            <label for="lcode">Lecture Code:</label>
+            <input type="number" id="lcode" name="lcode"><br><br>
+            <label for="mscore">Midterm Score:</label>
+            <input type="number" id="mscore" name="mscore"><br><br>
+            <label for="fscore">Final Score:</label>
+            <input type="number" id="fscore" name="fscore"><br><br>
+            <input type="button" value="Add Student To Lecture">
+          </form>
+    </div>
+    <div>
+        <h1>Search Student </h1>
+        <label for="sid">Student Id:</label>
+        <input type="number" id="sid" name="sid"><br><br>
+        <input type="button" value="Search Student">
+
+    </div>
+    <div>
+        <h1> Search Lecture</h1>
+        <label for="lcode">Lecture Code:</label>
+        <input type="number" id="lcode" name="lcode"><br><br>
+        <input type="button" value="Search Lecture">
+    </div>
+    <div> 
+        <h1>Lists </h1>
+        <input type="button" value="Student List">
+        <input type="button" value="Lecture List">
+        
+    </div>
+    
+    
+</body>
+</html>
